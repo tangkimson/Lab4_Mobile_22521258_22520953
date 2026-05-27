@@ -59,7 +59,8 @@ app/src/main/java/com/ex/myapplication/
 
 ## Lab Report
 
-See `Lab4_Report.docx` in the repository root for implementation details and screenshots.
+- [Lab4_Report.docx](Lab4_Report.docx) — Word report with code snippets and screenshots
+- [Lab4_Report.pdf](Lab4_Report.pdf) — PDF export for submission
 
 ## Notes
 
