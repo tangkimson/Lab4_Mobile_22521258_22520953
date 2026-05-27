@@ -1,6 +1,6 @@
 # Lab 4 — Real-Time Mobile Application Development
 
-**Students:** MSSV 22521258, MSSV 22520953  
+**Students:** Tăng Kim Sơn 22521258, Hong Bao Ngoc 22520953  
 **Repository:** https://github.com/tangkimson/Lab4_Mobile_22521258_22520953
 
 ## Description
