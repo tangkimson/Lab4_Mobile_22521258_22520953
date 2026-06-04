@@ -1,12 +1,13 @@
-"""Export Lab4_Report.docx to Lab4_Report.pdf."""
+"""Export Lab4_22521258_22520953.docx to Lab4_22521258_22520953.pdf."""
 import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DOCX = ROOT / "Lab4_Report.docx"
-PDF = ROOT / "Lab4_Report.pdf"
+REPORT_STEM = "Lab4_22521258_22520953"
+DOCX = ROOT / f"{REPORT_STEM}.docx"
+PDF = ROOT / f"{REPORT_STEM}.pdf"
 
 
 def export_with_docx2pdf() -> bool:

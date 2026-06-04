@@ -59,8 +59,8 @@ app/src/main/java/com/ex/myapplication/
 
 ## Lab Report
 
-- [Lab4_Report.docx](Lab4_Report.docx) — Word report with code snippets and screenshots
-- [Lab4_Report.pdf](Lab4_Report.pdf) — PDF export for submission
+- [Lab4_22521258_22520953.docx](Lab4_22521258_22520953.docx) — Word report with code snippets and screenshots
+- [Lab4_22521258_22520953.pdf](Lab4_22521258_22520953.pdf) — PDF export for submission
 
 ## Notes
 

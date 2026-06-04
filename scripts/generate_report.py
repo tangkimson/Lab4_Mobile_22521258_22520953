@@ -1,4 +1,4 @@
-"""Generate Lab4_Report.docx with per-exercise requirements, code, logic, and screenshots."""
+"""Generate Lab4_22521258_22520953.docx with per-exercise requirements, code, logic, and screenshots."""
 from pathlib import Path
 
 from docx import Document
@@ -7,7 +7,8 @@ from docx.shared import Inches, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parent.parent
 SCREENSHOTS = ROOT / "docs" / "screenshots"
-OUTPUT = ROOT / "Lab4_Report.docx"
+REPORT_STEM = "Lab4_22521258_22520953"
+OUTPUT = ROOT / f"{REPORT_STEM}.docx"
 REAL_SCREENSHOTS_FLAG = ROOT / "docs" / "screenshots" / ".real_captures"
 
 EXERCISES = [
@@ -275,7 +276,7 @@ def main():
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     doc.add_paragraph("Course: Mobile Application Development")
-    doc.add_paragraph("Students: MSSV 22521258, MSSV 22520953")
+    doc.add_paragraph("Students: Tăng Kim Sơn 22521258, Hồng Bảo Ngọc 22520953")
     doc.add_paragraph(
         "GitHub: https://github.com/tangkimson/Lab4_Mobile_22521258_22520953"
     )
@@ -343,7 +344,7 @@ def main():
 
     add_heading(doc, "6. Notes", 1)
     doc.add_paragraph(
-        "This submission includes Lab4_Report.docx and Lab4_Report.pdf at the repository root. "
+        f"This submission includes {REPORT_STEM}.docx and {REPORT_STEM}.pdf at the repository root. "
         "Source code is on GitHub for the teacher to clone and build on Windows with Android Studio."
     )
 
